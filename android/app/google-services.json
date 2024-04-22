@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "717511155216",
+    "project_id": "clinify-2d47a",
+    "storage_bucket": "clinify-2d47a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717511155216:android:01f27ce7b80cd5062eb495",
+        "android_client_info": {
+          "package_name": "com.example.log"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMPVDelh7sigulXXgH7iHw4ax--s4s4yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
