@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:log/Social%20media/social_media.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 class Social extends StatefulWidget {
   const Social({super.key});
 
@@ -10,15 +10,35 @@ class Social extends StatefulWidget {
 class _SocialState extends State<Social> {
   @override
   Widget build(BuildContext context) {
-    return  Row(
+    return Row(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Social1(image: "assets/images/facebook_5968764 1.png"),
-        SizedBox(width: 20),
-        //Social1(image: "aassets/images/google1.png"),
-        //   SizedBox(width: 20),
-        Social1(image: "assets/images/apple.png"),
+        children: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              FontAwesomeIcons.google,
+              color: Colors.black,
+              size: 35,
+            ),
+          ),
+
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              FontAwesomeIcons.facebook,
+              color: Colors.black,
+              size: 35,
+            ),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              FontAwesomeIcons.apple,
+              color: Colors.black,
+              size: 40,
+            ),
+          ),
       ],
-    );
+     );
   }
 }

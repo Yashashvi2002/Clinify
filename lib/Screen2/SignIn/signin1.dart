@@ -5,7 +5,6 @@ import 'package:log/Social%20media/Social_icons.dart';
 import 'package:log/Themes/constants.dart';
 import 'package:log/second%20page/email.dart';
 import 'package:log/second%20page/password.dart';
-import 'package:log/Social%20media/social_media.dart';
 import 'package:provider/provider.dart';
 
 class Sign_in1 extends StatefulWidget {
@@ -85,6 +84,7 @@ class _Sign_In_FormState extends State<Sign_In_Form> {
             style: ButtonStyle(backgroundColor:MaterialStateProperty.all<Color>( Colors.black),
                 minimumSize: MaterialStateProperty.all<Size>(Size(250, 50))),
             onPressed: ()  {
+              Navigator.of(context).pushNamedAndRemoveUntil('User-Interface', (route) => false);
               //final authService = Provider.of<AuthService>(context, listen: false);
               // try{
               //   await authService.signInWithEmailandPassword(emailController.text, passwordController.text);
